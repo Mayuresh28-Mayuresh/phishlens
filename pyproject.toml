@@ -1,0 +1,10 @@
+[project]
+name = "phishlens"
+version = "1.0.0"
+description = "Open-source defensive AI prototype for explainable phishing triage"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["streamlit>=1.40,<2.0", "requests>=2.32,<3.0"]
+
+[tool.ruff]
+line-length = 110
